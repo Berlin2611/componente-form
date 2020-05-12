@@ -9,7 +9,7 @@ export class MyComponent {
 
   @Prop() items: any[] = [{id: 1, name: 'PYTHON'}, {id: 2, name: 'JAVASCRIPT'}, {id: 3, name: 'JAVA'}];
 
-  @Prop({ attribute: 'title' }) title1 = 'personalizado';
+  @Prop({ attribute: 'title' }) title1 = 'Titulo desde Stenciljs';
 
   @Element() el: HTMLElement;
 
