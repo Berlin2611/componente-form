@@ -8,6 +8,7 @@ import { HTMLStencilElement, JSXBase } from "@stencil/core/internal";
 export namespace Components {
     interface MyForm {
         "items": any[];
+        "title1": string;
     }
 }
 declare global {
@@ -25,6 +26,7 @@ declare namespace LocalJSX {
     interface MyForm {
         "items"?: any[];
         "onValueChance"?: (event: CustomEvent<any>) => void;
+        "title1"?: string;
     }
     interface IntrinsicElements {
         "my-form": MyForm;
