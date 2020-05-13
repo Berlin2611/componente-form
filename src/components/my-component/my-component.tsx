@@ -63,6 +63,7 @@ export class MyComponent {
   render() {
     return <div>
         <h1>{this.title1}</h1>
+        <div><slot /></div>
         <form onSubmit={(e) => this.handleSubmit(e)}>
           <p>Nombres:</p>
           <input name="nombress" type="text" class="field"/> <br/>
